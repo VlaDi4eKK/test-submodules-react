@@ -4,8 +4,8 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom"
 
 import App from "./App"
 import "./index.css"
-import Module1 from "./modules/module_1_old/page"
-import Module2 from "./modules/module_2_old/page"
+import Module1 from "./modules/module_1/page"
+import Module2 from "./modules/module_2/page"
 
 const router = createBrowserRouter([
   {
@@ -13,11 +13,11 @@ const router = createBrowserRouter([
     element: <App />,
   },
   {
-    path: "/module_1_old",
+    path: "/module_1",
     element: <Module1 />,
   },
   {
-    path: "/module_2_old",
+    path: "/module_2",
     element: <Module2 />,
   },
 ])

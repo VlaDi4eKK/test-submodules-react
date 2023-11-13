@@ -9,11 +9,11 @@ function App() {
   const navigate = useNavigate()
 
   const handleOpenFirstModulePage = useCallback(() => {
-    navigate("/module_1_old")
+    navigate("/module_1")
   }, [navigate])
 
   const handleOpenSecondModulePage = useCallback(() => {
-    navigate("/module_2_old")
+    navigate("/module_2")
   }, [navigate])
 
   return (

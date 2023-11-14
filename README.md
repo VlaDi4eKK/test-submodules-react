@@ -1,1 +1,2 @@
-# React + TypeScript + Vite
+# Инициализация подмодулей проекта
+git submodule update --init

@@ -1,6 +1,8 @@
 [submodule "src/modules/module_1"]
 	path = src/modules/module_1
 	url = git@github.com:VlaDi4eKK/test-submodules-react-module-1.git
+	branch = main
 [submodule "src/modules/module_2"]
 	path = src/modules/module_2
 	url = git@github.com:VlaDi4eKK/test-submodules-react-module-2.git
+	branch = main
